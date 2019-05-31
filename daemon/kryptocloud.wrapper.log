@@ -1,0 +1,6 @@
+2019-05-28 14:21:04 - Starting C:\Program Files (x86)\nodejs\node.exe  --harmony C:\Users\a.shi\my_krypto_cloud\node_modules\node-windows\lib\wrapper.js --file C:\Users\a.shi\my_krypto_cloud\server.js --log "Krypto Cloud wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-28 14:21:04 - Started 7612
+2019-05-29 09:10:14 - Starting C:\Program Files (x86)\nodejs\node.exe  --harmony C:\Users\a.shi\my_krypto_cloud\node_modules\node-windows\lib\wrapper.js --file C:\Users\a.shi\my_krypto_cloud\server.js --log "Krypto Cloud wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-29 09:10:14 - Started 1832
+2019-05-30 09:11:39 - Starting C:\Program Files (x86)\nodejs\node.exe  --harmony C:\Users\a.shi\my_krypto_cloud\node_modules\node-windows\lib\wrapper.js --file C:\Users\a.shi\my_krypto_cloud\server.js --log "Krypto Cloud wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-05-31 09:07:09 - Starting C:\Program Files (x86)\nodejs\node.exe  --harmony C:\Users\a.shi\my_krypto_cloud\node_modules\node-windows\lib\wrapper.js --file C:\Users\a.shi\my_krypto_cloud\server.js --log "Krypto Cloud wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined

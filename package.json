@@ -1,0 +1,40 @@
+{
+  "name": "krypto-cloud",
+  "version": "1.0.0",
+  "author": "Charles Guo",
+  "description": "A server to provide restful api services for reader applications.",
+  "main": "app/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "jwt-authentication",
+    "jwt",
+    "mysql",
+    "sequelize",
+    "authentication"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "email-validator": "^2.0.3",
+    "express": "^4.15.2",
+    "ffi": "^2.3.0",
+    "jsonwebtoken": "^7.3.0",
+    "log4js": "^2.3.3",
+    "merkle-tools": "^1.4.0",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "node-sass": "^4.12.0",
+    "node-windows": "^0.1.14",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "pm2": "^2.10.4",
+    "sequelize": "^3.30.2",
+    "socket.io": "^1.7.2",
+    "supervisor": "^0.12.0"
+  }
+}

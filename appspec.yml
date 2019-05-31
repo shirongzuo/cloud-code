@@ -1,0 +1,13 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: C:\KryptoCloud
+
+hooks:
+  ApplicationStop:
+    - location: \stop_server.bat
+      timeout: 900
+  ApplicationStart:
+    - location: \start_server.bat
+      timeout: 900

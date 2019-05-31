@@ -1,0 +1,1 @@
+c:\Windows\Sysnative\WindowsPowerShell\v1.0\powershell.exe -Command "cd '"c:\KryptoCloud"'; npm install; c:\Users\Administrator\AppData\Roaming\npm\pm2 start ecosystem.config.js --env production"

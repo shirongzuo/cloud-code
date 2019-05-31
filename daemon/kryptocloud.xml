@@ -1,0 +1,25 @@
+<service>
+	<id>kryptocloud.exe</id>
+	<name>Krypto Cloud</name>
+	<description>The nodejs server for authenticating user data.</description>
+	<executable>C:\Program Files (x86)\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>C:\Users\a.shi\my_krypto_cloud\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\a.shi\my_krypto_cloud\server.js</argument>
+	<argument>--log</argument>
+	<argument>Krypto Cloud wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>C:\Users\a.shi\my_krypto_cloud</workingdirectory>
+</service>
