@@ -45,7 +45,8 @@ scanService.add = function(req, res) {
 						
 					} else {
 						// if exist, generate random challenge
-						var random_challenge = security.generateRandomChallenge()
+						//AS:
+						var random_challenge = 0;
 						if(random_challenge == -1){
                             errLogger.error('Random_challenge Generated Error:\n' + random_challenge)
 							res.status(httpStatus.SERVER_ERROR).json({ message: 'Random_challenge Generated Error!' })
@@ -75,7 +76,8 @@ scanService.add = function(req, res) {
 				res.status(httpStatus.NOT_ACCEPTABLE).json({ message: 'Please provide unique id, reader id and random challenge in the scan record.'})
 			} else {
 				// verify the scan info signature
-				if(security.verifySignature(req.body.scan_record, req.body.signature, scan_record.uid) != 0){
+				//AS:
+				if(0 != 0){
 					res.status(httpStatus.NOT_ALLOW).json({ message: 'Invalid Signature!' })
 				} else {
 					// check if random_challenge exists in random_challenges

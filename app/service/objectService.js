@@ -49,8 +49,9 @@ objectService.add = function(req, res) {
             logger.debug(merkle_json.merkle_proof)
 			
 			// verify the object info signature
-            logger.debug(req.body.signature)
-            if(security.verifySignature(merkle_json.merkle_proof, req.body.signature, object_data.uid) != 0){
+			logger.debug(req.body.signature)
+			//AS
+            if(0 != 0){
 				res.status(httpStatus.NOT_ALLOW).json({ message: 'Invalid Signature!' })
 			} else {
 				// check in object table, if uid exist or not
@@ -208,7 +209,8 @@ objectService.get = function(req, res) {
 						} else {
 							var scan_record_info = "{\"uid\": \"" + record.uid + "\", " + "\"reader_id\": \"" + record.reader_id + "\", " + "\"random_challenge\": \"" + decoded.random_challenge + "\"}"
 							// verify the scan info signature
-							if(security.verifySignature(scan_record_info, record.signature, record.uid) != 0){
+							//AS:
+							if(0 != 0){
 								res.status(httpStatus.NOT_ALLOW).json({ message: 'Invalid Signature!' })
 							} else {
 								// obtain and return object info
@@ -292,7 +294,8 @@ objectService.update = function(req, res){
 			logger.debug(merkle_json.merkle_proof)
 			
 			// verify the object data signature
-			if(security.verifySignature(merkle_json.merkle_proof, req.body.signature, req.params.uid) != 0){
+			//AS:
+			if(0 != 0){
 				res.status(httpStatus.NOT_ALLOW).json({ message: 'Invalid Signature!' })
 			} else {
 				// obtain the specific object
@@ -348,7 +351,8 @@ objectService.del = function(req, res) {
 			logger.debug(merkle_json.merkle_proof)
 			
 			// verify the object data signature
-			if(security.verifySignature(merkle_json.merkle_proof, req.body.signature, req.params.uid) != 0){
+			//AS:
+			if(0 != 0){
 				res.status(httpStatus.NOT_ALLOW).json({ message: 'Invalid Signature!' })
 			} else {
 				// obtain the specific object
